@@ -8,9 +8,9 @@ int main()
     int count = 0;
     int best = 0;
     
-    for (int i = 0; i < s.length() - 1; ++i)
+    for (int i = 0; i < s.length(); ++i)
     {
-        if (s[i] == s[i + 1])
+        if (i != (s.length() - 1) && s[i] == s[i + 1])
             count++;
         else
         {
