@@ -1,23 +1,20 @@
 ﻿#include <bits/stdc++.h>
 using namespace std;
 
-int main()
+int football()
 {
     string s;
     cin >> s;
-    int count = 0;
-    int best = 0;
+    int count = 1, best = 1;
     
-    for (int i = 0; i < s.length(); ++i)
+    for (int i = 0; i < s.length() - 1; ++i)
     {
-        if (i != (s.length() - 1) && s[i] == s[i + 1])
+        if (s[i] == s[i + 1])
             count++;
         else
-        {
-            count++;
-            best = max(best, count);
-            count = 0;            
-        }
+            count = 1;
+        
+        best = max(best, count);
     }
     
     cout << (best >= 7 ? "YES" : "NO") << "\n";
