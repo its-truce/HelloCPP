@@ -14,4 +14,5 @@ add_executable(HelloCPP watermelon.cpp
         petya.cpp
         helpful_maths.cpp
         word_capitalization.cpp
+        football.cpp
 )
