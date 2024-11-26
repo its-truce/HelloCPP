@@ -30,13 +30,13 @@ void solve()
     }
 }
 
-int main()
+int intercepted_inputs()
 {
     int t;
     cin >> t;
     vector<vector<int>> inputs;
     
-    for (int i = 0; i <= t; ++i)
+    for (int i = 0; i < t; ++i)
     {
         solve();
     }

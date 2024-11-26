@@ -16,4 +16,5 @@ add_executable(HelloCPP watermelon.cpp
         word_capitalization.cpp
         football.cpp
         intercepted_inputs.cpp
+        twice.cpp
 )
