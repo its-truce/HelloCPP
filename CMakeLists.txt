@@ -17,4 +17,5 @@ add_executable(HelloCPP watermelon.cpp
         football.cpp
         intercepted_inputs.cpp
         twice.cpp
+        superultra.cpp
 )
