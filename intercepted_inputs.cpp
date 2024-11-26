@@ -1,43 +1,44 @@
 ﻿#include <bits/stdc++.h>
 using namespace std;
 
+void solve()
+{
+    int k;
+    cin >> k;
+    
+    map<int, int> m;
+
+    for (int i = 0; i < k; i++)
+    {
+        int a;
+        cin >> a;
+        
+        m[a]++;
+    }
+    
+    int req = k - 2;
+
+    for (int i = 1; i * i <= req; i++)
+    {
+        int q = req / i;
+        
+        if (q * i == req && m.find(i) != m.end() && m.find(q) != m.end())
+        {
+            cout << i << " " << q << "\n";
+            return;
+        }
+    }
+}
+
 int main()
 {
     int t;
     cin >> t;
     vector<vector<int>> inputs;
     
-    for (int i = 0; i < t; ++i)
+    for (int i = 0; i <= t; ++i)
     {
-        int k;
-        cin >> k;
-
-        vector<int> v(k);
-        for (int j = 0; j < k; ++j)
-        {
-            cin >> v[j];
-        }
-        
-        inputs.push_back(v);
-    }
-
-    for (const vector<int>& v : inputs)
-    {
-        int req = (int)v.size() - 2;
-        bool found = false;
-
-        for (int i = 0; i < v.size() && !found; ++i)
-        {
-            for (int j = i + 1; j < v.size(); ++j)
-            {
-                if (v[i] * v[j] == req)
-                {
-                    cout << v[i] << " " << v[j] << "\n";
-                    found = true;
-                    break;
-                }
-            }
-        }
+        solve();
     }
     
     return 0;
