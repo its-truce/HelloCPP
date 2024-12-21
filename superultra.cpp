@@ -1,7 +1,7 @@
 ﻿#include <bits/stdc++.h>
 using namespace std;
 
-int main()
+int superultra()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);

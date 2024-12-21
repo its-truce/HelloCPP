@@ -18,4 +18,7 @@ add_executable(HelloCPP watermelon.cpp
         intercepted_inputs.cpp
         twice.cpp
         superultra.cpp
+        leadgame.cpp
+        listofbooks.cpp
+        longestpalindrome.cpp
 )
