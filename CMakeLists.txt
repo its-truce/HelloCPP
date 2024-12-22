@@ -22,4 +22,6 @@ add_executable(HelloCPP watermelon.cpp
         list_of_books.cpp
         longest_palindrome.cpp
         end_of_corruption.cpp
+        voters_list.cpp
+        reverse_punctuation.cpp
 )
