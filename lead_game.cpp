@@ -1,7 +1,7 @@
 ﻿#include <bits/stdc++.h>
 using namespace std;
 
-int leadgame()
+int lead_game()
 {
     int n;
     cin >> n;

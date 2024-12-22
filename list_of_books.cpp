@@ -1,7 +1,7 @@
 ﻿#include <bits/stdc++.h>
 using namespace std;
 
-int listofbooks()
+int list_of_books()
 {
     int n, m;
     cin >> m;
