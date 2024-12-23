@@ -24,4 +24,7 @@ add_executable(HelloCPP watermelon.cpp
         end_of_corruption.cpp
         voters_list.cpp
         reverse_punctuation.cpp
+        zero_one_tiles.cpp
+        meet_in_the_middle.cpp
+        next_permutation.cpp
 )
