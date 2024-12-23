@@ -27,4 +27,5 @@ add_executable(HelloCPP watermelon.cpp
         zero_one_tiles.cpp
         meet_in_the_middle.cpp
         next_permutation.cpp
+        prep_for_the_olympiad.cpp
 )
