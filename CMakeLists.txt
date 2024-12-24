@@ -30,4 +30,5 @@ add_executable(HelloCPP watermelon.cpp
         prep_for_the_olympiad.cpp
         journey.cpp
         prep_for_the_exam.cpp
+        best_price.cpp
 )
