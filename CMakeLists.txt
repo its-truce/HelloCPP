@@ -33,4 +33,8 @@ add_executable(HelloCPP watermelon.cpp
         best_price.cpp
         sorting_rows.cpp
         whats_the_rank.cpp
+        vegetables.cpp
+        dividing_sequences.cpp
+        average_element.cpp
+        wordlist.cpp
 )

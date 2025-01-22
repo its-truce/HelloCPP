@@ -4,7 +4,7 @@
 using namespace __gnu_pbds;
 using namespace std;
 
-int main()
+int whats_the_rank()
 {
     typedef tree<int, null_type, less<>, rb_tree_tag, tree_order_statistics_node_update> indexed_set;
     
