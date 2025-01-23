@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int main()
+int wordlist()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);

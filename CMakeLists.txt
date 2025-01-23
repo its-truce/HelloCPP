@@ -37,4 +37,10 @@ add_executable(HelloCPP watermelon.cpp
         dividing_sequences.cpp
         average_element.cpp
         wordlist.cpp
+        permutation_cycles.cpp
+        the_great_escape.cpp
+        number_of_tilings.cpp
+        frog1.cpp
+        dice_combinations.cpp
+        time_is_mooney.cpp
 )
